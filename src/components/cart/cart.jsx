@@ -4,8 +4,7 @@ import Content from './content';
 export default class Cart extends Component {
   render() {
     return (
-      <div className="Main_Cart">
-        <Header />
+      <div id="cart">
         <Content />
       </div>
     )

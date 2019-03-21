@@ -12,5 +12,32 @@
             color: black;
             margin-right: 10px;
         }
+
+        .wrapperDropDown:hover div.dropDown{
+            display: block;
+        }
+
+    }
+}
+
+.wrapperDropDown {
+    display: inline-flex;
+
+    & div.dropDown {
+        background-color: blue;
+        position: relative;
+        display: none;
+
+        & ul.dropDownList {
+            background-color: green;
+            top: 10px;
+            right: 10px;
+            position: absolute;
+            display: block;
+
+            & li {
+                display: block;
+            }
+        }
     }
 }

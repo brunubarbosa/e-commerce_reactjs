@@ -4,4 +4,17 @@
     & aside {
         border: 1px solid red;
     }
+
+    & .defaultImage, & .segundaryImage {
+        width: 100px;
+        height: 100px;
+    }
+
+    & .segundaryImage {
+        display: none;
+    }
+
+    & .wrapperImages {
+        display: inline-block;
+    }
 }

@@ -11,7 +11,9 @@ export default class Header extends Component {
                 <div className="dropDown">
                   <ul className="dropDownList">
                     <a href="/listagem/samsung"><li>Samsung</li></a>
-                    <a href="/listagem/Motorola"><li>Motorola</li></a>
+                    <a href="/listagem/motorola"><li>Motorola</li></a>
+                    <a href="/listagem/apple"><li>apple</li></a>
+                    <a href="/listagem/asus"><li>asus</li></a>
                   </ul>
                 </div>
                 </div>

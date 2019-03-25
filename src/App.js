@@ -3,11 +3,11 @@ import Header from './components/header/header';
 import Cart from './components/cart/cart';
 import { BrowserRouter, Route, Link, Router } from 'react-router-dom';
 import Listagem from './components/listagem/listagem';
+import phoneData from './phoneData';
 
 class App extends Component {
 
   render() {
-
     return (
       <BrowserRouter>
         <Header />

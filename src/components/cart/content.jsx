@@ -5,7 +5,7 @@ export default class Content extends Component {
   render() {
     return (
       <div className="content">
-        {phoneData.motorola.modelo.e5.descricao}
+        {/* {phoneData.motorola.modelo.e5.descricao} */}
       </div>
     )
   }

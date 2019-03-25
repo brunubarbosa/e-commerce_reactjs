@@ -3,7 +3,7 @@ import React from 'react';
 export const Aside = () => {
     return (
         <aside>
-        <span class="aside-title">Filtros</span>
+        <span className="aside-title">Filtros</span>
         <div>
             <p>Marcas</p>
             <div>

@@ -1,0 +1,20 @@
+.wrapperCartPreview {
+    position: relative;
+
+    & .cartContent {
+        background-color: white;
+        width: 300px;
+        position: absolute;
+        display: none;
+        // padding: 3px 8px;
+        max-height: 200px;
+        overflow-y: scroll;
+        left: -270px;
+    
+        & .previewCartImage {
+            width: 80px;
+            height: 80px;
+        }
+
+}
+}

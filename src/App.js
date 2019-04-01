@@ -6,13 +6,27 @@ import Listagem from './components/listagem/listagem';
 import phoneData from './phoneData';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      cartContent: []
+    }
+  }
+
+  addCartContent = (id) => {
+    this.setState({cartContent: [...this.state.cartContent, id]})
+  }
 
   render() {
     return (
       <BrowserRouter>
-        <Header />
+        <Header cartContent={this.state.cartContent} addCartContent={this.addCartContent}/>
         <Route exact path="/cart" component={Cart} />
-        <Route path="/listagem" component={Listagem} />
+        <Route path="/listagem" render={(routeProps) => (
+          <Listagem {...routeProps} addCartContent={this.addCartContent} />
+        )
+
+        }/>
       </BrowserRouter>
     );
   }

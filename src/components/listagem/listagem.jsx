@@ -6,13 +6,14 @@ import ListagemMain from './main/ListagemMain';
 export default class Listagem extends Component {
     constructor(props) {
         super(props)
+        console.log(this.props.addCartContent)
         this.props = props
     }
   render() {
     return (
       <div id="listagem">
         <Aside />
-        <ListagemMain path={this.props.location}/>
+        <ListagemMain path={this.props.location} addCartContent={this.props.addCartContent}/>
       </div>
     )
   }

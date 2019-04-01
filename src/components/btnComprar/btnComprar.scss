@@ -1,0 +1,14 @@
+
+.btnComprar {
+    background-color: #14A2DE;
+    border-radius: 4px;
+    outline: none;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    
+    &:active {
+        background-color: rgb(6, 172, 243);
+
+    }
+}

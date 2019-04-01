@@ -1,40 +1,46 @@
 import React, {Component } from 'react';
 import phoneData from '../phoneData';
 import findMarca from '../commons/findPhone';
+import BtnComprar from '../components/btnComprar/btnComprar';
 export default class RenderList extends Component{
     constructor(props) {
-        super();
+        super(props);
+        console.log(props)
         this.path = props.path.pathname
         this.pathArray = this.definePath()
-        this.findPath()
+        this.defineBlock()
 
     }
     
-    definePath = (pathString) => {
+    definePath = () => {
         let pathArray = this.path.split('/');
         pathArray = pathArray.filter(element => element != '')
         return pathArray
     }
 
-    findPath() {
+    defineBlock() {
         if(this.pathArray[1]) {
+
             return (
-                findMarca(this.pathArray[1]).modelos.map(modelo => {
+
+                findMarca(this.pathArray[1]).modelos.map((modelo, indexModelo) => {
                     return(
-                        <div >
-                            <p>Modelo: {modelo.nome}</p>
-                            <p>Preço: {modelo.preço}</p>
-                            {
-                                modelo.images.map((imagem, indexImage) => <img  style={{width: '100px', height: '100px'}} src={imagem} alt=""/>)
-                            }
-                            <p>Preço: {modelo.descricao}</p>
+                        <div key={indexModelo} className="wrapperCard">
+                            <div className="wrapperImages">
+                                {
+                                    modelo.images.map((imagem, indexImage) => <img key={indexImage} className={indexImage == 0 ? 'defaultImage' : 'segundaryImage'} src={imagem} alt=""/>)
+                                }
+                            </div>
+                                <p>Modelo: {modelo.nome}</p>
+                                <p>Preço: {modelo.preço}</p>
+                            <BtnComprar id={modelo.id} addCartContent={this.props.addCartContent}/>
                         </div>
                     )
                 })
                 )
             }else  {
                 return(phoneData.map((element, indexMarca) =>  {
-    
+                    
                 return(
                     <React.Fragment key={indexMarca}>
                         {

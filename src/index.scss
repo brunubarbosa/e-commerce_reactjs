@@ -1,8 +1,30 @@
 * {
     padding:  0px;
     margin: 0px;
+    color: rgb(54, 54, 54);
+}
+
+.icon35 {
+    width: 35px;
+    height: 35px;
 }
 
 @import './components/header/header.scss';
 @import './components/listagem/listagem.scss';
 @import './components/listagem/aside/aside.scss';
+@import './components/btnComprar/btnComprar.scss';
+@import './components/header/cart-content/cartContent.scss';
+@import './components/header/dropDownLogin/dropDownLogin.scss';
+
+// bacground-color: #9BCBDE;
+// bacground-color: #4187A4;
+// bacground-color: #668592;
+// bacground-color: #14A2DE;
+// bacground-color: #42565F;
+// bacground-color: #778beb;
+// bacground-color: #546de5;
+// bacground-color: #786fa6;
+
+// sombra
+// bacground-color: #394B52;
+// bacground-color: #596275;

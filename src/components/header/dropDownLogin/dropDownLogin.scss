@@ -1,0 +1,77 @@
+.wrapperDropDrownLogin {
+    position: relative;
+    display: none;
+
+    & .dropDrownLogin {
+        position: absolute;
+        background-color: white;
+        left: -229px;
+        padding: 10px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & .title {
+            color: rgb(34, 137, 197);
+        }
+    }
+
+    .wrapperImageAvatar {
+        background-color: rgb(0, 217, 255);
+        width: 128%;
+        transform: translateY(-10px);
+        display: flex;
+        justify-content: center;
+
+        & .imageAvatar{
+            padding: 20px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgb(77, 113, 230);
+            border: 5px solid white;
+            margin: 5px 0px;
+            z-index: 10;
+
+            &::after {
+                content: ' ';
+                position: absolute;
+                display: inline-block;
+                width: 10px;
+                transform: translateX(-5px);
+                height: 10px;
+                background-color: white;
+                top: 0px;
+                left: 50%;
+            }
+            &::before {
+                content: ' ';
+                position: absolute;
+                display: inline-block;
+                width: 10px;
+                transform: translateX(-5px);
+                height: 10px;
+                background-color: white;
+                bottom: 0px;
+                left: 50%;
+            }
+
+        }
+
+        & .efectLeft {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 70px 272px 0 0;
+            border-color: #2271a0 transparent transparent transparent;
+            position: absolute;
+        }
+        & .efectRight {
+            // width: 50%;
+            // height: 100%;
+            // background-color: rgb(43, 209, 51);
+            // position: absolute;
+            // transform: translateX(50%);
+        }
+    }
+}

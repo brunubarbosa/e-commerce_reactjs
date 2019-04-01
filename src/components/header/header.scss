@@ -1,5 +1,5 @@
 .wrapperHeadder {
-    background-color: red;
+    background-color: #9BCBDE;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -10,13 +10,19 @@
         & a {
             text-decoration: none;
             color: black;
-            margin-right: 10px;
         }
 
         .wrapperDropDown:hover div.dropDown{
             display: block;
+            top: 7px;
         }
 
+    }
+
+    & .wrapperCart {
+        &:hover .cartContent {
+            display: block;
+        }
     }
 }
 
@@ -39,5 +45,17 @@
                 display: block;
             }
         }
+    }
+}
+
+.wrapperRigthHeader {
+    display: flex;
+}
+
+.wrapperIconLogin {
+    cursor: pointer;
+
+    &:hover .wrapperDropDrownLogin {
+        display: block;
     }
 }

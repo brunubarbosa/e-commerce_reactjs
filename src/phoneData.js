@@ -54,7 +54,7 @@ const phoneData = [
         marca: 'motorola',
         modelos: [
             { 
-               id: 1,
+               id: 6,
                 nome: 'Motorola moto g6',
                 preço: '2.172,00',
                 descricao: 'O Samsung Galaxy S10 Preto é o Smartphone da próxima geração e foi projetado para não só se destacar, mas para se diferenciar. Ele possui leitor de digital ultrassônico que o desbloqueia o seu celular com um toque. Conta também com processador Octa-Core, 128GB de armazenamento interno, 8GB de RAM, tecnologia 3G/4G e é Dual Chip. Além de tudo, tem tela infinita de 6,1", câmera Tripla Traseira de 12MP OIS (F1.5/F2.4) + Ultra Wide 16MP (F2.2) + 12MP OIS (F2.4) e câmera selfie de 10MP Auto Focus',
@@ -64,7 +64,7 @@ const phoneData = [
                         'https://images-americanas.b2w.io/produtos/01/00/item/133453/1/133453126_4GG.jpg']
             },
             {
-               id: 2,
+               id: 7,
                 nome: 'Motorola moto g7',
                 preço: '2.938,00',
                 descricao: 'O Samsung Galaxy S10 Preto é o Smartphone da próxima geração e foi projetado para não só se destacar, mas para se diferenciar. Ele possui leitor de digital ultrassônico que o desbloqueia o seu celular com um toque. Conta também com processador Octa-Core, 128GB de armazenamento interno, 8GB de RAM, tecnologia 3G/4G e é Dual Chip. Além de tudo, tem tela infinita de 6,1", câmera Tripla Traseira de 12MP OIS (F1.5/F2.4) + Ultra Wide 16MP (F2.2) + 12MP OIS (F2.4) e câmera selfie de 10MP Auto Focus',
@@ -73,7 +73,7 @@ const phoneData = [
                         'https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/134186/8/134186808_3GG.jpg']
             },
             {
-               id: 3,
+               id: 8,
                 nome: 'Motorola e5',
                 preço: '4.272,00',
                 descricao: 'O Samsung Galaxy S10 Preto é o Smartphone da próxima geração e foi projetado para não só se destacar, mas para se diferenciar. Ele possui leitor de digital ultrassônico que o desbloqueia o seu celular com um toque. Conta também com processador Octa-Core, 128GB de armazenamento interno, 8GB de RAM, tecnologia 3G/4G e é Dual Chip. Além de tudo, tem tela infinita de 6,1", câmera Tripla Traseira de 12MP OIS (F1.5/F2.4) + Ultra Wide 16MP (F2.2) + 12MP OIS (F2.4) e câmera selfie de 10MP Auto Focus',
@@ -87,7 +87,7 @@ const phoneData = [
                 marca: 'asus',
                 modelos: [
                     { 
-                       id: 1,
+                       id: 9,
                         nome: 'ZenFone Max Pro (M1)',
                         preço: '1.132,10',
                         descricao: 'O ZenFone Max Pro (M1) da Asus traz o melhor dos 2 mundos, pois além do desempenho, tem bateria de 5000mAh, e ainda, o sistema de câmera dupla, uma com 13MP e outra com 5MP que criam retratos perfeitos com o efeito bokeh, aquele desfoque que dá um toque profissional às fotos, além da câmera Selfie com 8MP. Tudo isso com a experiência da interface pura do sistema operacional Android 8.1 Oreo. Na parte frontal temos uma tela de 6", mais ampla, com proporção 18:9 e resolução Full HD+ 2160x1080 (maior que Full HD)',
@@ -96,7 +96,7 @@ const phoneData = [
                                 ]
                     },
                     {
-                       id: 2,
+                       id: 10,
                         nome: ' Asus Zenfone 5 ZE620KL',
                         preço: '1.987,00',
                         descricao: 'O Samsung Galaxy S10 Preto é o Smartphone da próxima geração e foi projetado para não só se destacar, mas para se diferenciar. Ele possui leitor de digital ultrassônico que o desbloqueia o seu celular com um toque. Conta também com processador Octa-Core, 128GB de armazenamento interno, 8GB de RAM, tecnologia 3G/4G e é Dual Chip. Além de tudo, tem tela infinita de 6,1", câmera Tripla Traseira de 12MP OIS (F1.5/F2.4) + Ultra Wide 16MP (F2.2) + 12MP OIS (F2.4) e câmera selfie de 10MP Auto Focus',
@@ -105,7 +105,7 @@ const phoneData = [
                                 'https://a-static.mlcdn.com.br/618x463/smartphone-asus-zenfone-5-ze620kl-64gb-desbloqueado/cissamagazine/116332/23733f3a06f00298e36297d33c0e24ff.jpg']
                     },
                     {
-                       id: 3,
+                       id: 11,
                         nome: 'Zenfone Max Pro',
                         preço: '4.272,00',
                         descricao: 'O ZenFone Max Pro (M1) traz o melhor dos dois mundos, pois além do desempenho, ele tem bateria de 5.000mAh. E ainda, o sistema de câmera dupla cria retratos perfeito com o efeito bokeh, aquele desfoque que dá um toque profissional às fotos. Tudo isso com a experiência da interface pura do sistema Android.Energia de sobra! Dentro do ZenFone Max Pro (M1) tem uma bateria gigantesca, com 5.000mAh, que ocupa pouquíssimo espaço, para você aproveitar seu smartphone por até 2 dias*, mas mantendo o design fino e leve. Com tanta energia, você pode navegar mais, jogar mais, ver mais vídeos e falar muito mais, sem se preocupar com tomadas.',
@@ -114,7 +114,7 @@ const phoneData = [
                                 'https://www.extra-imagens.com.br/TelefoneseCelulares/Smartphones/Android/13439764/1003323790/smartphone-asus-zenfone-max-pro-prata-32gb-tela-6-0-3gb-ram-camera-traseira-dupla-bateria-5000mah-processador-octa-core-android-8-0-e-dual-chip-13439764.jpg']
                     },
                     {
-                       id: 4,
+                       id: 12,
                         nome: 'Asus Max M1',
                         preço: '872,00',
                         descricao: 'O ZenFone Max Pro (M1) traz o melhor dos dois mundos, pois além do desempenho, ele tem bateria de 5.000mAh. E ainda, o sistema de câmera dupla cria retratos perfeito com o efeito bokeh, aquele desfoque que dá um toque profissional às fotos. Tudo isso com a experiência da interface pura do sistema Android.Energia de sobra! Dentro do ZenFone Max Pro (M1) tem uma bateria gigantesca, com 5.000mAh, que ocupa pouquíssimo espaço, para você aproveitar seu smartphone por até 2 dias*, mas mantendo o design fino e leve. Com tanta energia, você pode navegar mais, jogar mais, ver mais vídeos e falar muito mais, sem se preocupar com tomadas.',
@@ -129,7 +129,7 @@ const phoneData = [
             marca: 'apple',
             modelos: [
                 { 
-                   id: 1,
+                   id: 13,
                     nome: 'iPhone 7 Plus',
                     preço: '2.832,10',
                     descricao: 'O iPhone 7 Plus da Asus traz o melhor dos 2 mundos, pois além do desempenho, tem bateria de 5000mAh, e ainda, o sistema de câmera dupla, uma com 13MP e outra com 5MP que criam retratos perfeitos com o efeito bokeh, aquele desfoque que dá um toque profissional às fotos, além da câmera Selfie com 8MP. Tudo isso com a experiência da interface pura do sistema operacional Android 8.1 Oreo. Na parte frontal temos uma tela de 6", mais ampla, com proporção 18:9 e resolução Full HD+ 2160x1080 (maior que Full HD)',
@@ -139,14 +139,14 @@ const phoneData = [
                             ]
                 },
                 {
-                   id: 2,
+                   id: 14,
                     nome: ' iPhone 6s',
                     preço: '2.800,00',
                     descricao: 'O iPhone 6s Preto é o Smartphone da próxima geração e foi projetado para não só se destacar, mas para se diferenciar. Ele possui leitor de digital ultrassônico que o desbloqueia o seu celular com um toque. Conta também com processador Octa-Core, 128GB de armazenamento interno, 8GB de RAM, tecnologia 3G/4G e é Dual Chip. Além de tudo, tem tela infinita de 6,1", câmera Tripla Traseira de 12MP OIS (F1.5/F2.4) + Ultra Wide 16MP (F2.2) + 12MP OIS (F2.4) e câmera selfie de 10MP Auto Focus',
                     images: ['https://www.extra-imagens.com.br/TelefoneseCelulares/Smartphones/iPhone/11448066/1083086646/iphone-6s-apple-com-tela-47-hd-com-64gb-3d-touch-ios-9-sensor-touch-id-camera-isight-12mp-wi-fi-4g-gps-bluetooth-e-nfc-ouro-rosa-11448066.jpg']
                 },
                 {
-                   id: 3,
+                   id: 15,
                     nome: 'iPhone 8',
                     preço: '3.262,00',
                     descricao: 'O ZenFone Max Pro (M1) traz o melhor dos dois mundos, pois além do desempenho, ele tem bateria de 5.000mAh. E ainda, o sistema de câmera dupla cria retratos perfeito com o efeito bokeh, aquele desfoque que dá um toque profissional às fotos. Tudo isso com a experiência da interface pura do sistema Android.Energia de sobra! Dentro do ZenFone Max Pro (M1) tem uma bateria gigantesca, com 5.000mAh, que ocupa pouquíssimo espaço, para você aproveitar seu smartphone por até 2 dias*, mas mantendo o design fino e leve. Com tanta energia, você pode navegar mais, jogar mais, ver mais vídeos e falar muito mais, sem se preocupar com tomadas.',
